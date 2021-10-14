@@ -1,0 +1,71 @@
+.about-page {
+    margin: 8rem 14rem;
+
+    @media screen and (max-width: 768px) {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    @media screen and (max-width: 1000px) {
+        margin: 6rem 6rem;
+    }
+}
+
+.image-section{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    overflow: hidden;
+    .img{
+        width: 300px;
+        img{
+            width: 300px;
+            object-fit: cover;
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+    .about-info{
+        margin-left: 2rem;
+        h4{
+            font-size: 2rem;
+        }
+        .about-text{
+            padding: 1rem 0;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        .about-info {
+            margin-left: 0;
+            margin-top: 30px;
+            h4 {
+                text-align: center;
+            }
+            .about-text {
+                padding: 1rem 30px;
+                text-align: center;
+            }
+        }
+        .skills-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .about-text {
+            font-size: 16px;
+        }
+        
+    }
+
+}
+
+.about-info h4 span {
+    color: #ae3258;
+}

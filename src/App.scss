@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ae3258;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+    background: 
+    #d6b3bebe;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    // font-family: 'Poppins', sans-serif;
+    // font-size: .938rem;
+    font-size: 1.2rem;
+    // background-color:#000000;
+    background-color: #131313;
+    color: hsl(206, 4%, 75%);
+    cursor: none;
+    // overflow-x: hidden;
+    transition: all 0.3s;
+}
+
+.loader {
+    background-color: #131313;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    color: hsl(206, 4%, 95%);
+}
+
+h1 {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 110;
+}
+
+.cursor-dot {
+    width: 4px;
+    height: 4px;
+    background-color: #ae3258;
+}
+
+.cursor-dot-outline {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #b37a8b71;
+    background-color: transparent;
+}
+
+.links-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+    .cursor-dot,
+    .cursor-dot-outline {
+        display: none;
+    }
+}
