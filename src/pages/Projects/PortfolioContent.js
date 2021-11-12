@@ -1,41 +1,82 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "./Projects.scss";
 import { Link } from "react-router-dom";
+import image from '../../images/Mockup.png'
 
-const PortfolioContent = ({ image }) => {
-  const [content, setContent] = useState(true)
+const PortfolioContent = (props) => {
 
-  const showCards = () => {
-    setTimeout(() => {
-      setContent(false)
-    },1000)
-  }
-
-  useEffect(() => {
-    showCards()
-  })
-
-  return (
-    <div className="figure">
-      
-      {
-        content 
-        ?
-        <div className="card"></div>
-        :
-        <img src={image} alt="project1" className="portfolio-img" />
-      }
-      
-      <div className="capa">
-        <h3>Movie App</h3>
-        <p>Lorem Ipsum is simply dummy</p>
-        <div className="icon-wrapper">
-          <i className="fab fa-react"></i>
-          <i className="fab fa-sass"></i>
+  return ( 
+    <>
+      <div className="container-work">
+        <div className="container-img">
+          <img src={image} className="img-size" alt="" />
+        </div>
+        <div className="container-text">
+          <h4>{props.title}</h4>
+          <h4 className="tech">Technologies</h4>
+          <ul className="tech-list">
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-react"></i>
+          </ul>
+          <Link className="button-projects" href="#" title="View site here">Button</Link>
         </div>
       </div>
-    </div>
-  );
+
+      <div className="container-work">
+        <div className="container-img">
+          <img src={image} className="img-size" alt="" />
+        </div>
+        <div className="container-text">
+          <h4>{props.title}</h4>
+          <h4 className="tech">Technologies</h4>
+          <ul className="tech-list">
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-react"></i>
+          </ul>
+          <Link className="button-projects" href="#" title="View site here">Button</Link>
+        </div>
+      </div>
+
+      <div className="container-work">
+        <div className="container-img">
+          <img src={image} className="img-size" alt="" />
+        </div>
+        <div className="container-text">
+          <h4>{props.title}</h4>
+          <h4 className="tech">Technologies</h4>
+          <ul className="tech-list">
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-react"></i>
+          </ul>
+          <Link className="button-projects" href="#" title="View site here">Button</Link>
+        </div>
+      </div>
+
+      <div className="container-work">
+        <div className="container-img">
+          <img src={image} className="img-size" alt="" />
+        </div>
+        <div className="container-text">
+          <h4>{props.title}</h4>
+          <h4 className="tech">Technologies</h4>
+          <ul className="tech-list">
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-react"></i>
+          </ul>
+          <Link className="button-projects" href="#" title="View site here">Button</Link>
+        </div>
+      </div>
+    </>
+    
+  )
 };
 
 export default PortfolioContent;

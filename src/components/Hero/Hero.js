@@ -1,10 +1,14 @@
 import React, { useEffect } from 'react';
 import Typical from 'react-typical'
 import './Hero.scss'
-// import imagen1 from '../../images/imagen2.svg'
+import imagen1 from '../../images/girl.png'
 import { gsap } from 'gsap';
+import Footer from '../../components/Footer/Footer'
 
 const Hero = () => {
+    const style = {
+        width: 70
+    }
     const timeline = gsap.timeline();
 
     useEffect(() => {
@@ -15,21 +19,26 @@ const Hero = () => {
     return (
         <div className="hero-wrapper">
             <div className="overlay">
-                <div><i class="fas fa-laptop-code"></i></div>
-                <h1 className="my-name"><span className="hi">Hi</span>, I'm Merlina Villecco</h1>
-                <p className="what-i-do">I'm a {` `}
-                        <Typical 
-                            loop={Infinity}
-                            wrapper='b'
-                            steps={[
-                                'front-end developer',
-                                1500,
-                                'web designer',
-                                1500
-                            ]}
-                        />
-                </p>
+                <div>
+                    <div>
+                        <img src={imagen1} style={style} alt=""/>
+                    </div>
+                    <h1 className="my-name"><span className="hi">Hi</span>, I'm Merlina Villecco</h1>
+                    <p className="what-i-do">I'm a {` `}
+                            <Typical 
+                                loop={Infinity}
+                                wrapper='b'
+                                steps={[
+                                    'front-end developer',
+                                    1500,
+                                    'web designer',
+                                    1500
+                                ]}
+                            />
+                    </p>
+                </div>
             </div>
+            <Footer />
         </div>
     );
 };

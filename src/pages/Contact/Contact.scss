@@ -1,0 +1,99 @@
+@import "../../common/style.scss";
+
+.contact-wrapper {
+  padding: 8rem 14rem 0 14rem;
+  height: 87vh;
+  overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    padding: 0px 20px;
+    margin-top: 70px;
+    height: 75vh;
+  }
+  .contact-section {
+    margin-top: 6rem;
+    img {
+      width: 370px;
+      margin-right: 4rem;
+      @media screen and (max-width: 768px) {
+        margin-right: 0px;
+        width: 200px;
+      }
+    }
+    .info {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      .title-contact {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        @media screen and (max-width: 1000px) {
+          font-size: 22px;
+        }
+      }
+      .fancylink {
+        color:white;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 16px;
+        position: relative;
+        white-space: nowrap;
+        text-decoration: none;
+        display: inline-block;
+        z-index: 0;
+        margin: 10px 0;
+      }
+      
+      .fancylink.fancylink--preline::after{
+        opacity: 1;
+        width: 1.75em;
+        height: 4px;
+        border-radius: 50px;
+        bottom: -3px;
+      }
+      
+      .fancylink::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -1px;
+        height: 3px;
+        width: 0;
+        background-color: $first-color;
+        transition: all 0.15s cubic-bezier(0.4, 0, 0.5, 1.5);
+        opacity: .5;
+        z-index: -1;
+      }
+      
+      .fancylink:hover::after {
+        width: 100%;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.5, 1.5);
+        opacity: 1;
+      }
+      @media screen and (max-width: 768px) {
+        text-align: center;
+        margin-top: 50px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    @media screen and (max-width: 1000px) {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-size: 27px;
+    letter-spacing: 2px;
+  }
+}
+

@@ -6,10 +6,9 @@ import AboutPage from './pages/AboutPage/AboutPage'
 import Projects from './pages/Projects/Projects';
 import './App.scss';
 import HashLoader from "react-spinners/HashLoader";
-import "./light.scss"
+import "./light.scss";
 import CustomCursor from './components/CustomCursor/CustomCursor';
-import Footer from './components/Footer/Footer';
-
+import Contact from './pages/Contact/Contact';
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -27,7 +26,7 @@ function App() {
         <div className="loader">
           <HashLoader 
             size={80} 
-            color={"#ae3258;"}
+            color={"#F4ACB7;"}
             loading={loading} 
             />
         </div>
@@ -37,11 +36,11 @@ function App() {
           <CustomCursor />
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Home}/>
-            <Route path="/about" exact component={AboutPage}/>
-            <Route path="/projects" exact component={Projects}/>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" exact component={AboutPage} />
+            <Route path="/projects" exact component={Projects} />
+            <Route path="/contact" exact component={Contact} />
           </Switch>
-          <Footer />
         </Router>
       }
       

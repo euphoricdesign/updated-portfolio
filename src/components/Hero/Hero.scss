@@ -1,36 +1,37 @@
+@import "../../common/style.scss";
+
 .hero-wrapper {
-    text-align: center;
-    height: 90vh;
-    .overlay {
-        width: 100%;
-        height: 100%;
-        padding-top: 230px;
-        .my-name {
-            font-size: 27px;
-            margin: 10px 0 7px 0;
-            .hi{
-                color: hsl(342, 55%, 44%);
-            }
-        }
-        .what-i-do {
-            font-size: 17px;
-            margin-bottom: 40px;
-        }
-        .img-svg {
-            width:350px;
-        }
-        .fa-laptop-code {
-            color: #ae3258;
-            font-size: 30px;
-        }
+  text-align: center;
+  height: 87vh;
+  .overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+    .my-name {
+      font-size: 27px;
+      margin: 10px 0 7px 0;
+      .hi {
+        color: $first-color;
+      }
     }
+    .what-i-do {
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+    .img-svg {
+      width: 350px;
+    }
+    .fa-laptop-code {
+      color: $first-color;
+      font-size: 30px;
+    }
+  }
 }
 
-
-@media screen and (max-width:1000px) {
-    .overlay {
-        width: 100%;
-        height: 100%;
-        padding-top: 140px;
-    }
+@media screen and (max-width: 1000px) {
+  .overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: 140px;
+  }
 }

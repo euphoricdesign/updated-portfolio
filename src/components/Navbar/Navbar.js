@@ -24,16 +24,13 @@ const Navbar = () => {
                     <div className={`nav-menu ${ isMenuActive ? "show-menu" : "" }`} id="nav-menu">
                         <ul className="nav-list">
                             <li className="nav-item">
-                                <Link onClick={toggleMenu} className="nav-link" to="/">Home</Link>
+                                <Link onClick={toggleMenu} className="nav-link" to="/about">.about()</Link>
                             </li>
                             <li className="nav-item">
-                                <Link onClick={toggleMenu} className="nav-link" to="/about">About</Link>
+                                <Link onClick={toggleMenu} className="nav-link" to="/projects">.projects()</Link>
                             </li>
                             <li className="nav-item">
-                                <Link onClick={toggleMenu} className="nav-link" to="/projects">Projects</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link onClick={toggleMenu} className="nav-link" to="/">Contact</Link>
+                                <Link onClick={toggleMenu} className="nav-link" to="/contact">.contact()</Link>
                             </li>
                             {ThemeSwitcher}
                         </ul>
@@ -42,7 +39,7 @@ const Navbar = () => {
                     </div>
 
                     <div onClick={toggleMenu} className="nav-toggle" id="nav-toggle">
-                        <div class={`hamburger ${ isMenuActive ? "active" : "" }`}><div class="bar"></div></div>
+                        <div className={`hamburger ${ isMenuActive ? "active" : "" }`}><div className="bar"></div></div>
                     </div>
                 </nav>
             </header>

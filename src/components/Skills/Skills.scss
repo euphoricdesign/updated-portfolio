@@ -1,87 +1,89 @@
+@import "../../common/style.scss";
+
 .skills-menu {
-    padding-bottom: 110px;
+  padding-bottom: 30px;
+  height: 60vh;
 }
 .skills-menu ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    &:nth-child(2) {
-        margin-top: 50px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  &:nth-child(2) {
+    margin-top: 50px;
+  }
+  li {
+    list-style: none;
+    margin: 0 10px;
+    .fab {
+      width: 100px;
+      color: $first-color;
+      font-size: 35px;
+      line-height: 100px;
+      transition: 0.3s;
+      &:hover {
+        color: #ffffff;
+      }
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        font-size: 20px;
+        line-height: 70px;
+      }
     }
-    li {
-        list-style: none;
-        margin: 0 10px;
-        .fab {
-            width: 100px;
-            color: #ae3258;
-            font-size: 35px;
-            line-height: 100px;
-            transition: .3s;
-            &:hover {
-                color: #ffffff;
-            }
-            @media screen and (max-width: 768px) {
-                width: 100%;
-                font-size: 20px;
-                line-height: 70px;
-            }
-        }
-        &:nth-child(1) div:hover {
-            background-color: #eb6500;
-        }
-        &:nth-child(2) div:hover {
-            background-color: #179bff;
-            color: white;
-        }
-        &:nth-child(3) div:hover {
-            background-color: #face1d;
-            color: white;
-        }
-        &:nth-child(4) div:hover {
-            background-color: #1282e9;
-            color: white;
-        }
+    &:nth-child(1) div:hover {
+      background-color: #eb6500;
     }
-    &:nth-child(2){
-        li:nth-child(1) {
-            div:hover {
-                background-color: #ff627e;
-                color: white;
-            }
-        }
-        li:nth-child(2) {
-            div:hover {
-                background-color: #8c62ff;
-                color: white;
-            }
-        }
+    &:nth-child(2) div:hover {
+      background-color: #179bff;
+      color: white;
     }
+    &:nth-child(3) div:hover {
+      background-color: #face1d;
+      color: white;
+    }
+    &:nth-child(4) div:hover {
+      background-color: #1282e9;
+      color: white;
+    }
+  }
+  &:nth-child(2) {
+    li:nth-child(1) {
+      div:hover {
+        background-color: #ff627e;
+        color: white;
+      }
+    }
+    li:nth-child(2) {
+      div:hover {
+        background-color: #8c62ff;
+        color: white;
+      }
+    }
+  }
 }
 
 .skills-menu ul li div {
-    position: relative;
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: white;
-    text-align: center;
-    transition: 0.3s;
-    transform: translate(0,0px);
-    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-    &:hover {
-        transform: rotate(0deg) skew(0deg) translate(0, -10px);
-        color: #fff;
-    }
-    @media screen and (max-width: 768px) {
-        width: 70px;
-        height: 70px;
-    }
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.3s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  &:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    width: 70px;
+    height: 70px;
+  }
 }
-
 
 // .skills-menu ul:nth-child(2) li:nth-child(1) div:hover {
 //     background-color: #ff627e;

@@ -1,54 +1,56 @@
+@import "../../common/style.scss";
+
 input[type="checkbox"] {
-    -webkit-appearance: none;
-    visibility: hidden;
-    display: none;
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
 }
 
 .check {
-    position: relative;
-    display: block;
-    width: 40px;
-    height: 20px;
-    background: #ae3258;
-    cursor: pointer;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: ease-in 0.5s;
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background: $first-color;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: ease-in 0.5s;
 }
 
 input[type="checkbox"]:checked ~ .check {
-    background: #ffffff;
-    box-shadow: 0 0 0 2px #ae3258;
+  background: #ffffff;
+  box-shadow: 0 0 0 2px $first-color;
 }
 .check::before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    background: #fff;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    transition: 0.5s;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
 }
 
 input[type="checkbox"]:checked ~ .check:after {
-    transform: translateX(-50px);
+  transform: translateX(-50px);
 }
 
 .check::after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    background: #ae3258;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    transition: 0.5s;
-    transform: translateX(50px);
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: $first-color;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  transform: translateX(50px);
 }
 
 input[type="checkbox"]:checked ~ .check:after {
-    transform: translateX(0px);
+  transform: translateX(0px);
 }
