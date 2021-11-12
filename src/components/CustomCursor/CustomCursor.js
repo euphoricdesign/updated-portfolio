@@ -35,7 +35,7 @@ const CustomCursor = () => {
 
         cancelAnimationFrame(requestRef.current);
         };
-    }, []);
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     const toggleCursorVisibility = () => {
         if (cursorVisible.current) {
