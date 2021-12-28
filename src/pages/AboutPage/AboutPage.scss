@@ -10,7 +10,7 @@
     align-items: center;
   }
   @media screen and (max-width: 1000px) {
-    margin: 6rem 6rem;
+    margin: 70px 6rem;
   }
 }
 
@@ -19,6 +19,10 @@
   margin-top: 6rem;
   margin-bottom: 8rem;
   overflow: hidden;
+
+  @media screen and (max-width:768px) {
+    margin-bottom: 4rem;
+  }
   .img {
     width: 300px;
     img {

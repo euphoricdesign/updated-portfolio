@@ -6,10 +6,10 @@ import Footer from '../../components/Footer/Footer';
 
 const Contact = () => {
     const styleParagraph1 = {
-        width: 160
+        width: 150
     }
     const styleParagraph2 = {
-        width: 170
+        width: 161
     }
 
     const timeline = gsap.timeline();

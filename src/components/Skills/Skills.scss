@@ -1,95 +1,61 @@
-@import "../../common/style.scss";
-
-.skills-menu {
-  padding-bottom: 30px;
-  height: 60vh;
-}
-.skills-menu ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  &:nth-child(2) {
-    margin-top: 50px;
-  }
-  li {
-    list-style: none;
-    margin: 0 10px;
-    .fab {
-      width: 100px;
-      color: $first-color;
-      font-size: 35px;
-      line-height: 100px;
-      transition: 0.3s;
-      &:hover {
-        color: #ffffff;
-      }
-      @media screen and (max-width: 768px) {
-        width: 100%;
-        font-size: 20px;
-        line-height: 70px;
-      }
-    }
-    &:nth-child(1) div:hover {
-      background-color: #eb6500;
-    }
-    &:nth-child(2) div:hover {
-      background-color: #179bff;
-      color: white;
-    }
-    &:nth-child(3) div:hover {
-      background-color: #face1d;
-      color: white;
-    }
-    &:nth-child(4) div:hover {
-      background-color: #1282e9;
-      color: white;
-    }
-  }
-  &:nth-child(2) {
-    li:nth-child(1) {
-      div:hover {
-        background-color: #ff627e;
-        color: white;
-      }
-    }
-    li:nth-child(2) {
-      div:hover {
-        background-color: #8c62ff;
-        color: white;
-      }
-    }
-  }
-}
-
-.skills-menu ul li div {
-  position: relative;
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: white;
+.skills-container {
   text-align: center;
-  transition: 0.3s;
-  transform: translate(0, 0px);
-  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-  &:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -10px);
-    color: #fff;
+  font-size: 0.7rem;
+  border-radius: 50px;
+  padding: 48px;
+  margin: 70px 0 170px 0;
+
+  @media screen and (max-width:768px) {
+    width: 500px;
   }
-  @media screen and (max-width: 768px) {
-    width: 70px;
-    height: 70px;
+  
+  @media screen and (max-width:500px) {
+    width: 350px;
   }
 }
 
-// .skills-menu ul:nth-child(2) li:nth-child(1) div:hover {
-//     background-color: #ff627e;
-//     color: white;
-// }
-// .skills-menu ul:nth-child(2) li:nth-child(2) div:hover {
-//     background-color: #8c62ff;
-//     color: white;
-// }
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-column-gap: 46px;
+  grid-row-gap: 46px;
+
+  li {
+    background-color: #5252528f;
+    border: 1px solid #222121;
+    padding: 10px;
+    border-radius: 15px;
+    width: 80px;
+    transition: all 0.3s ease-in;
+    &:hover {
+      box-shadow: 0 10px 28px #000000;
+    }
+
+    .item-container {
+      img {
+        width: 35px;
+        height: 35px;
+
+        @media screen and (max-width:768px) {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      p{
+        margin-top: 10px;
+        font-size: 12px;
+
+        @media screen and (max-width:768px) {
+          margin-top: 4px;
+          font-size: 8px;
+          text-align: center;
+        }
+      }
+    }
+
+    @media screen and (max-width:768px) {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

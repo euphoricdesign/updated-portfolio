@@ -8,7 +8,7 @@
   @media screen and (max-width: 768px) {
     padding: 0px 20px;
     margin-top: 70px;
-    height: 75vh;
+    height: 77vh;
   }
   .contact-section {
     margin-top: 6rem;
@@ -31,6 +31,9 @@
         margin-bottom: 10px;
         @media screen and (max-width: 1000px) {
           font-size: 22px;
+        }
+        @media screen and (max-width:500px) {
+          font-size: 20px;
         }
       }
       .fancylink {
