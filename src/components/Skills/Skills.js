@@ -15,50 +15,50 @@ const Skills = () => {
         <ul className="skill-grid">
             <li>
                 <div className="item-container">
-                    <img src={html}/>
+                    <img src={html} alt="html"/>
                     <p>HTML</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={css}/>
+                    <img src={css} alt="css"/>
                     <p>CSS</p>
 
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={js}/>
+                    <img src={js} alt="js"/>
                     <p>Javascript</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={react}/>
+                    <img src={react} alt="react"/>
                     <p>React</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={sass}/>
+                    <img src={sass} alt="sass"/>
                     <p>SASS</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={redux}/>
+                    <img src={redux} alt="redux"/>
                     <p>Redux</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={git}/>
+                    <img src={git} alt="git"/>
                     <p>Git</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={gsap}/>
+                    <img src={gsap} alt="gsap"/>
                     <p>GSAP</p>
                 </div>
             </li>
