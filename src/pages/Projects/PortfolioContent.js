@@ -31,7 +31,7 @@ const PortfolioContent = (props) => {
             <i className="fab fa-js"></i>
             <i className="fab fa-react"></i>
           </ul>
-          <p className="about-text"><Link className="button-projects" href="#" title="View site here" /></p>
+          <p className="about-text"><Link className="button-projects" to="https://challenge-weather.netlify.app/" title="View site here" /></p>
         </div>
       </div>
 
@@ -48,7 +48,7 @@ const PortfolioContent = (props) => {
             <i className="fab fa-js"></i>
             <i className="fab fa-react"></i>
           </ul>
-          <Link className="button-projects" href="#" title="View site here" />
+          <Link className="button-projects" to="https://challenge-weather.netlify.app/" title="View site here" />
         </div>
       </div>
 
@@ -65,7 +65,7 @@ const PortfolioContent = (props) => {
             <i className="fab fa-js"></i>
             <i className="fab fa-react"></i>
           </ul>
-          <Link className="button-projects" href="#" title="View site here" />
+          <Link className="button-projects" to="https://challenge-weather.netlify.app/" title="View site here" />
         </div>
       </div>
 
@@ -82,7 +82,7 @@ const PortfolioContent = (props) => {
             <i className="fab fa-js"></i>
             <i className="fab fa-react"></i>
           </ul>
-          <Link className="button-projects" href="#" title="View site here" />
+          <Link className="button-projects" to="https://challenge-weather.netlify.app/" title="View site here" />
         </div>
       </div>
     </>
