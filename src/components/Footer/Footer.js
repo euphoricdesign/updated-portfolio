@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
-import { Link } from 'react-router-dom';
-import  './Footer.scss'
+import  './Footer.scss';
 import { gsap } from 'gsap';
 
 const Footer = () => {
@@ -22,9 +21,9 @@ const Footer = () => {
                     <div className="wave" id="wave4"></div>
                 </div>
                 <ul className="social-icon">
-                    <li><Link to="https://www.facebook.com/profile.php?id=100011077833486v"><i className="fab fa-facebook"></i></Link></li>
-                    <li><Link to="https://www.linkedin.com/in/merlina-villecco-64149a214/"><i className="fab fa-linkedin"></i></Link></li>
-                    <li><Link to="https://www.instagram.com/merlinavillecco_/"><i className="fab fa-instagram"></i></Link></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100011077833486v"><i className="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/merlina-villecco-64149a214/"><i className="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/merlinavillecco_/"><i className="fab fa-instagram"></i></a></li>
                 </ul>
             </footer>
         </div>
