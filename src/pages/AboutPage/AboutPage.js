@@ -1,23 +1,25 @@
 import React, { useEffect } from 'react';
-import './AboutPage.scss'
 import about from '../../images/about2.jpg'
 import TitleComp from '../../components/Title/TitleComp';
 import Skills from '../../components/Skills/Skills';
-import { gsap } from 'gsap';
 import Footer from '../../components/Footer/Footer';
+import { gsap } from 'gsap';
+import './AboutPage.scss'
 
 const AboutPage = () => {
     const timeline = gsap.timeline();
 
     useEffect(() => {
         const image = document.querySelector('.img');
-        const aboutText = document.querySelectorAll('.about-text')
+        const aboutText = document.querySelectorAll('.about-text');
+        const containerWithOpaciy = document.querySelector('.container-with-opacity');
         timeline.from(image, {opacity: 0, x: -600, duration: 1.3})
         .from(aboutText, {opacity: 0, x: 600, duration: 1.5, stagger:0.2}, "-=1.3")
+        .from(containerWithOpaciy, {opacity: 1, duration: 2.5});
     })
 
     return (
-        <>
+        <div className='container-with-opacity'>
             <div className="about-page">
                 <TitleComp title={"about me"} span={"about me"} />
                 <div className="image-section">
@@ -41,7 +43,7 @@ const AboutPage = () => {
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     );
 };
 

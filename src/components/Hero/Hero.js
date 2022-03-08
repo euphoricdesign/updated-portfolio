@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
 import Typical from 'react-typical'
-import './Hero.scss'
-import imagen1 from '../../images/girl.png'
+import imagen1 from '../../images/girl.png';
 import { gsap } from 'gsap';
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer';
+import './Hero.scss';
 
 const Hero = () => {
-    const style = {
-        width: 70
-    }
+    const style = { width : 70 }
+
     const timeline = gsap.timeline();
 
     useEffect(() => {
