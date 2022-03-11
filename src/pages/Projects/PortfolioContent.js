@@ -10,8 +10,10 @@ const PortfolioContent = () => {
     useEffect(() => {
         const image = document.querySelector('.img-size');
         const aboutText = document.querySelectorAll('.about-text');
+        const secondProject = document.querySelector('.second-project')
         timeline.from(image, {opacity: 0, x: -600, duration: 1.3})
-        .from(aboutText, {opacity: 0, x: 600, duration: 1.5, stagger:0.2}, "-=1.3");
+        .from(aboutText, {opacity: 0, x: 600, duration: 1.5, stagger:0.2}, "-=1.3")
+        .from(secondProject, {opacity: 0, duration: .2})
     })
 
 
@@ -34,7 +36,7 @@ const PortfolioContent = () => {
         </div>
       </div>
 
-      <div className="container-work">
+      <div className="container-work second-project">
         <div className="container-img">
           <img src={image2} className="img-size" alt="" />
         </div>
