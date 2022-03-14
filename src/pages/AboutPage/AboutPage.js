@@ -21,24 +21,24 @@ const AboutPage = () => {
     return (
         <div className='container-with-opacity'>
             <div className="about-page">
-                <TitleComp title={"about me"} span={"about me"} />
+                <TitleComp title={"sobre mi"} span={"sobre mi"} />
                 <div className="image-section">
                     <div className="img">
                         <img className="img-about" src={about} alt=""/>
                     </div>
                     <div className="about-info">
-                        <h4 className="about-text">I am<span> Merlina</span></h4>
+                        <h4 className="about-text">Soy<span> Merlina</span></h4>
                         <p className="about-text">
-                            A creative web designer and developer, restless and eager to learn and continue to grow professionally.
+                            Desarrolladora y diseñadora web creativa, ocurrente y con muchas ganas de aprender y seguir creciendo profesionalmente.
                         </p>
                         <p className="about-text">
-                            I am currently looking for challenges to translate all my knowledge and experience into interesting projects.
+                            Actualmente me encuentro en busqueda de desafios para plasmar en proyectos interesantes, todos mis conocimientos y experiencia.
                         </p>
                     </div>
                 </div>
 
                 <div>
-                    <TitleComp title={"skills"} span={"skills"} />
+                    <TitleComp title={"habilidades"} span={"habilidades"} />
                     <Skills />
                 </div>
             </div>

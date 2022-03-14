@@ -22,15 +22,15 @@ const Hero = () => {
                     <div>
                         <img src={imagen1} style={style} alt=""/>
                     </div>
-                    <h1 className="my-name"><span className="hi">Hi</span>, I'm Merlina Villecco</h1>
-                    <p className="what-i-do">I'm a {` `}
+                    <h1 className="my-name"><span className="hi">Hola</span>, Soy Merlina Villecco</h1>
+                    <p className="what-i-do">
                             <Typical 
                                 loop={Infinity}
                                 wrapper='b'
                                 steps={[
-                                    'front-end developer',
+                                    'Desarrolladora Front-end',
                                     1500,
-                                    'web designer',
+                                    'Diseñadora Web',
                                     1500
                                 ]}
                             />

@@ -10,10 +10,12 @@ const PortfolioContent = () => {
     useEffect(() => {
         const image = document.querySelector('.img-size');
         const aboutText = document.querySelectorAll('.about-text');
-        const secondProject = document.querySelector('.second-project')
+        const secondImage = document.querySelector('.second-image')
+        const aboutText2 = document.querySelectorAll('.about-text2');
         timeline.from(image, {opacity: 0, x: -600, duration: 1.3})
         .from(aboutText, {opacity: 0, x: 600, duration: 1.5, stagger:0.2}, "-=1.3")
-        .from(secondProject, {opacity: 0, duration: .2})
+        .from(secondImage, {opacity: 0, x: 600, duration: 1.3, stagger:0.2}, "-=1.3")
+        .from(aboutText2, {opacity: 0, x: -600, duration: 1.5, stagger:0.2}, "-=1.3")
     })
 
 
@@ -25,7 +27,7 @@ const PortfolioContent = () => {
         </div>
         <div className="container-text">
           <h4 className="about-text">Red Bull - Torneo Janoz 1X1</h4>
-          <h4 className="about-text tech">Technologies</h4>
+          <h4 className="about-text tech">Tecnologías</h4>
           <ul className="tech-list about-text">
             <i className="fab fa-html5"></i>
             <i className="fab fa-css3-alt"></i>
@@ -36,20 +38,20 @@ const PortfolioContent = () => {
         </div>
       </div>
 
-      <div className="container-work second-project">
+      <div className="container-work">
         <div className="container-img">
-          <img src={image2} className="img-size" alt="" />
+          <img src={image2} className="img-size second-image" alt="" />
         </div>
         <div className="container-text">
-          <h4>React Weather Application</h4>
-          <h4 className="tech">Technologies</h4>
-          <ul className="tech-list">
+          <h4 className="about-text2">React Weather Application</h4>
+          <h4 className="about-text2 tech">Tecnologías</h4>
+          <ul className="tech-list about-text2">
             <i className="fab fa-html5"></i>
             <i className="fab fa-css3-alt"></i>
             <i className="fab fa-js"></i>
             <i className="fab fa-react"></i>
           </ul>
-          <p><a className="button-projects" href="https://challenge-weather.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text2"><a className="button-projects" href="https://challenge-weather.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 

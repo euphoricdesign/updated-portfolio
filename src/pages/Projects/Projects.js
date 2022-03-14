@@ -8,7 +8,7 @@ const Projects = () => {
     return (
     <>
         <div className="bd-container" id="portfolio">
-            <TitleComp title={"projects"} span={"projects"}/>
+            <TitleComp title={"proyectos"} span={"proyectos"}/>
             <PortfolioContent />
         </div>
         <Footer />

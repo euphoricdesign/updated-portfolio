@@ -27,10 +27,10 @@ const Contact = () => {
     return (
         <>
             <div className="contact-wrapper">
-                <TitleComp title={"contact"} span={"contact"}/>
+                <TitleComp title={"contacto"} span={"contacto"}/>
                 <div className="contact-section">
                     <div className="info">
-                        <p className="contact-text title-contact">Feel free to get in touch anytime! 💌</p>
+                        <p className="contact-text title-contact">No dudes en ponerte en contacto en cualquier momento! 💌</p>
                         <p className="fancylink fancylink--preline" style={styleParagraph1}>mervil@gmail.com</p>
                         <a className="fancylink fancylink--preline effect" style={styleParagraph2} href="tel:(+54)3875656716">+54 387 565 6716</a>
                         {/* <p className="subtitle-contact">Feel free to get in touch anytime!</p> */}
