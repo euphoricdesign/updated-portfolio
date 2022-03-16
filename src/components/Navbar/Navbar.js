@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.scss';
 import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
-
+import pdffile from '../../MerlinaVillecco.pdf'
 
 const Navbar = () => {
     const ThemeSwitcher = useThemeSwitcher();
@@ -32,9 +32,12 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link onClick={toggleMenu} className="nav-link" to="/contact">.contacto()</Link>
                             </li>
+                            <li className="nav-item">
+                                <a onClick={toggleMenu} className="nav-link" href={pdffile} target="_blank" rel='noreferrer' download='MerlinaVillecco.pdf'>⇩</a>
+                            </li>
                             {ThemeSwitcher}
                         </ul>
-
+                        
                         
                     </div>
 
