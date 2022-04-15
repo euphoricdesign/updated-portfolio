@@ -65,7 +65,7 @@ const PortfolioContent = () => {
           <img src={image3} className="img-size third-image" alt="" />
         </div>
         <div className="container-text">
-          <h4 className="about-text3">Congress App</h4>
+          <h4 className="about-text3"> United States Congress App</h4>
           <h4 className="tech about-text3">Technologies</h4>
           <ul className="tech-list about-text3">
             <i className="fab fa-html5"></i>
