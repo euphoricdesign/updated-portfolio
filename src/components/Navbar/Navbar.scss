@@ -39,8 +39,8 @@
   color: #F4ACB7;
   font-size: 15px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 15px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    font-size: 13px;
   }
 }
 .nav-logo h1 span {
@@ -81,6 +81,10 @@
   -webkit-background-clip: text;
   background-clip: text;
   transition: 0.4s;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    font-size: 17px;
+  }
 }
 
 .nav-link:hover {
@@ -141,6 +145,11 @@
   cursor: pointer;
   transform: scale(0.8);
   // margin-right: 20px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .hamburger::after {
@@ -159,6 +168,10 @@
   position: relative;
   background-color: white;
   z-index: -1;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    width: 17px;
+  }
 }
 
 .hamburger .bar::after,

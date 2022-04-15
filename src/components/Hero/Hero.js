@@ -6,7 +6,6 @@ import Footer from '../../components/Footer/Footer';
 import './Hero.scss';
 
 const Hero = () => {
-    const style = { width : 70 }
 
     const timeline = gsap.timeline();
 
@@ -19,9 +18,7 @@ const Hero = () => {
         <div className="hero-wrapper">
             <div className="overlay">
                 <div>
-                    <div>
-                        <img src={imagen1} style={style} alt=""/>
-                    </div>
+                    <img src={imagen1} className="laptop-girl" alt=""/>
                     <h1 className="my-name"><span className="hi">Hola</span>, Soy Merlina Villecco</h1>
                     <p className="what-i-do">
                             <Typical 

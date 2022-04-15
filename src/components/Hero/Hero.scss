@@ -7,16 +7,34 @@
     width: 100%;
     height: 100%;
     padding-top: 180px;
+    .laptop-girl {
+      width: 70px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+        width: 60px;
+      }
+    }
     .my-name {
       font-size: 27px;
       margin: 10px 0 7px 0;
       .hi {
         color: $first-color;
       }
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+        font-size: 20px;
+      }
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
+        font-size: 23px;
+      }
     }
     .what-i-do {
       font-size: 15px;
       margin-bottom: 40px;
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+        font-size: 12px;
+      }
     }
     .img-svg {
       width: 350px;
@@ -24,6 +42,13 @@
     .fa-laptop-code {
       color: $first-color;
       font-size: 30px;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+      padding-top: 90px;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
+      padding-top: 130px;
     }
   }
 }
