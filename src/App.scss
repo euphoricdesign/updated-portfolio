@@ -88,6 +88,11 @@ a {
   height: 40px;
   border: 2px solid #b37a8b71;
   background-color: transparent;
+
+  @media screen and (min-width: 1920px) {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .links-container {

@@ -20,11 +20,14 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    console.log(window)
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
     }, 2800)
   }, [])
+
+  const sizeLoader = window.innerWidth < 1920 ? 80 : 150
 
   return (
     <>
@@ -32,7 +35,7 @@ function App() {
         loading ?
         <div className="loader">
           <HashLoader 
-            size={80} 
+            size={sizeLoader} 
             color={"#F4ACB7;"}
             loading={loading} 
             />

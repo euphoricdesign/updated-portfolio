@@ -5,12 +5,10 @@ import { gsap } from 'gsap';
 import Footer from '../../components/Footer/Footer';
 
 const Contact = () => {
-    const styleParagraph1 = {
-        width: 150
-    }
-    const styleParagraph2 = {
-        width: 161
-    }
+    const styleParagraph1 = window.innerWidth < 1920 ? {with: 150} : {width: 308}
+    
+    
+    const styleParagraph2 = window.innerWidth < 1920 ? {width:161} : {width: 335}
 
     const timeline = gsap.timeline();
 

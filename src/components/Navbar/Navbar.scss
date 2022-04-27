@@ -28,11 +28,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (min-width: 1920px) {
+    height: 6rem;
+  }
 }
 
 .nav-logo {
   display: flex;
   width: 10.5rem;
+
+  @media screen and (min-width: 1920px) {
+    width: 18.5rem;
+  }
 }
 
 .nav-logo h1 {
@@ -41,6 +49,10 @@
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
     font-size: 13px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 29px;
   }
 }
 .nav-logo h1 span {
@@ -85,6 +97,10 @@
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
     font-size: 17px;
   }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 26px;
+  }
 }
 
 .nav-link:hover {
@@ -108,11 +124,17 @@
   top: 0;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (max-width: 1919px) {
+  .nav-link {
+    font-size:12px;
+    text-transform: initial;
+  }
   .nav {
     height: calc(2rem + 1.5rem);
   }
+}
 
+@media screen and (min-width: 767px) {
   // .nav-logo {
   //     width: 2rem;
   // }
@@ -121,12 +143,6 @@
     flex-direction: row;
     column-gap: 1.7rem;
   }
-
-  .nav-link {
-    font-size:12px;
-    text-transform: initial;
-  }
-
   .nav-toggle {
     display: none;
   }

@@ -12,6 +12,9 @@
   @media screen and (max-width: 1000px) {
     margin: 70px 6rem;
   }
+  @media screen and (min-width: 1920px) {
+    margin: 14rem 14rem 0 14rem;
+  }
 }
 
 .image-section {
@@ -24,17 +27,21 @@
     margin-bottom: 4rem;
   }
   .img {
-    width: 300px;
     img {
       width: 300px;
       object-fit: cover;
       // object-position: top;
       height: 320px;
       border-radius: 10px;
+
+      @media screen and (min-width: 1920px) {
+        width: 576px;
+        height: 630px;
+      }
     }
   }
   .about-info {
-    margin-left: 2rem;
+    margin-left: 6rem;
     h4 {
       font-size: 2rem;
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
@@ -43,9 +50,20 @@
       @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
         font-size: 28px;
       }
+
+      @media screen and (min-width: 1920px) {
+        font-size: 5rem;
+      }
     }
     .about-text {
       padding: 1rem 0;
+      @media screen and (min-width: 1920px) {
+        font-size: 45px;
+      }
+    }
+
+    @media screen and (min-width: 1920px) {
+      margin-left: 10rem;
     }
   }
 
@@ -73,6 +91,10 @@
     .about-text {
       font-size: 16px;
     }
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 22rem;
   }
 }
 
