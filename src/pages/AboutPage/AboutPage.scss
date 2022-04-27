@@ -58,6 +58,13 @@
     .about-text {
       padding: 1rem 0;
       @media screen and (min-width: 1920px) {
+        font-size: 65px;
+      }
+    }
+
+    .about-text-p {
+      padding: 1rem 0;
+      @media screen and (min-width: 1920px) {
         font-size: 45px;
       }
     }

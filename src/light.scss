@@ -90,6 +90,10 @@ body.light-mode .hero-wrapper .scroll-down::after {
 
 body.light-mode .about-page .title {
   color: $font-color;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 5rem;
+  }
 }
 
 body.light-mode .about-page .title span {
@@ -98,6 +102,10 @@ body.light-mode .about-page .title span {
   left: 0;
   font-size: 5rem;
   opacity: 0.1;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 8rem;
+  }
 }
 
 body.light-mode .about-page .image-section .about-info {
@@ -117,6 +125,9 @@ body.light-mode .bd-container .title span {
   left: 0;
   font-size: 5rem;
   opacity: 0.1;
+  @media screen and (min-width: 1920px) {
+    font-size: 8rem;
+  }
 }
 
 body.light-mode .skills-container .skill-grid li {
@@ -143,6 +154,10 @@ body.light-mode .container-work .container-text {
 
 body.light-mode .contact-wrapper .title {
   color: $font-color;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 5rem;
+  }
 }
 
 body.light-mode .contact-wrapper .title span {
@@ -151,6 +166,9 @@ body.light-mode .contact-wrapper .title span {
   left: 0;
   font-size: 5rem;
   opacity: 0.1;
+  @media screen and (min-width: 1920px) {
+    font-size: 8rem;
+  }
 }
 
 body.light-mode .contact-wrapper .contact-section .info .subtitle-contact {
