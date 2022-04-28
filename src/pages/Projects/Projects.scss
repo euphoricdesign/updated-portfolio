@@ -33,6 +33,7 @@
 
 .container-work {
   display: flex;
+  justify-content: center;
   margin: 100px 0 160px 0;
 
   @media screen and (max-width: 680px) {
@@ -54,7 +55,7 @@
       }
 
       @media screen and (min-width: 1920px) {
-        font-size: 58px;
+        font-size: 45px;
       }
     }
     .tech {
@@ -85,6 +86,11 @@
     }
     @media screen and (min-width: 1920px) {
       margin-left: 180px
+    }
+
+
+    @media screen and (max-width: 500px) {
+      margin-left: 0px
     }
   }
 
