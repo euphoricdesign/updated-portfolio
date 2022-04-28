@@ -97,7 +97,7 @@
         transition: all 0.25s cubic-bezier(0.4, 0, 0.5, 1.5);
         opacity: 1;
       }
-      @media screen and (max-width: 768px) {
+      @media screen and (min-width: 480px) and (max-width: 768px) {
         text-align: center;
         margin-top: 50px;
       }
