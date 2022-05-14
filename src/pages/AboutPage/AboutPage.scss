@@ -67,6 +67,10 @@
       @media screen and (min-width: 1920px) {
         font-size: 45px;
       }
+      @media screen and (max-width: 500px) {
+        text-align: center;
+      }
+      
     }
 
     @media screen and (min-width: 1920px) {
