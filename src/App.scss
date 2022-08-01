@@ -6,8 +6,14 @@
   margin: 0;
 }
 
+#root{
+  min-height: 100vh;
+}
+
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;
+  position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -25,15 +31,13 @@ body::-webkit-scrollbar-track {
 
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  // font-family: 'Poppins', sans-serif;
-  // font-size: .938rem;
   font-size: 1.2rem;
-  // background-color:#000000;
   background-color: #131313;
   color: white;
   cursor: none;
-  // overflow: hidden;
+  margin: 0;
   transition: all 0.3s;
+  min-height: 100vh;
 }
 
 .loader {

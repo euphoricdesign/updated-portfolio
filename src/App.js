@@ -14,6 +14,7 @@ import Contact from './pages/Contact/Contact';
 
 import './App.scss';
 import "./light.scss";
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
             <Route path="/projects" exact component={Projects} />
             <Route path="/contact" exact component={Contact} />
           </Switch>
+          <Footer />
         </Router>
       }
       

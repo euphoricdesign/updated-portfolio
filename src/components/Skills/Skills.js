@@ -1,5 +1,4 @@
 import React from "react";
-import "./Skills.scss";
 import html from '../../images/html-5.png'
 import css from '../../images/css-3.png'
 import js from '../../images/js.png'
@@ -8,6 +7,10 @@ import sass from '../../images/sass.svg'
 import redux from '../../images/redux.svg'
 import git from '../../images/git.svg'
 import gsap from '../../images/gsap.svg'
+import chakra from '../../images/chakra.svg'
+import figma from '../../images/figma.png'
+import next from '../../images/next.png'
+import "./Skills.scss";
 
 const Skills = () => {
     return (
@@ -40,14 +43,14 @@ const Skills = () => {
             </li>
             <li>
                 <div className="item-container">
-                    <img src={sass} alt="sass"/>
-                    <p>SASS</p>
+                    <img src={redux} alt="redux"/>
+                    <p>Redux</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={redux} alt="redux"/>
-                    <p>Redux</p>
+                    <img src={next} alt="next"/>
+                    <p>Next</p>
                 </div>
             </li>
             <li>
@@ -58,8 +61,26 @@ const Skills = () => {
             </li>
             <li>
                 <div className="item-container">
+                    <img src={sass} alt="sass"/>
+                    <p>SASS</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
+                    <img src={chakra} alt="chakra"/>
+                    <p>Chakra UI</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
                     <img src={gsap} alt="gsap"/>
                     <p>GSAP</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
+                    <img src={figma} alt="figma"/>
+                    <p>Figma</p>
                 </div>
             </li>
         </ul>

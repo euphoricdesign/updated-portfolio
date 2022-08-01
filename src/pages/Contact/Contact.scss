@@ -1,7 +1,7 @@
 @import "../../common/style.scss";
 
 .contact-wrapper {
-  padding: 8rem 14rem 0 14rem;
+  padding: 8rem 7rem 0 7rem;
   height: 87vh;
   overflow: hidden;
   @media screen and (min-width: 1920px) {
@@ -10,8 +10,10 @@
 
   @media screen and (max-width: 768px) {
     padding: 0px 20px;
-    margin-top: 11vh;
-    height: 76vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .contact-section {
     margin-top: 6rem;

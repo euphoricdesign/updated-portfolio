@@ -60,7 +60,7 @@ const PortfolioContent = () => {
         </div>
       </div>
 
-      <div className="container-work">
+      <div style={{"marginBottom":"300px"}} className="container-work">
         <div className="container-img">
           <img src={image3} className="img-size third-image" alt="" />
         </div>

@@ -44,7 +44,6 @@ const AboutPage = () => {
                     <Skills />
                 </div>
             </div>
-            <Footer />
         </div>
     );
 };

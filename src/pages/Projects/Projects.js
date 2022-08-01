@@ -11,7 +11,6 @@ const Projects = () => {
             <TitleComp title={"proyectos"} span={"proyectos"}/>
             <PortfolioContent />
         </div>
-        <Footer />
     </>
     );
 };

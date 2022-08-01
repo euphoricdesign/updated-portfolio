@@ -132,11 +132,8 @@ body.light-mode .bd-container .title span {
 
 body.light-mode .skills-container .skill-grid li {
   background-color: white;
-  border: 1px solid #eee;
-
-  &:hover {
-    box-shadow: 0 10px 28px #00000078;
-  }
+  border: transparent;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 

@@ -2,11 +2,12 @@
 
 .hero-wrapper {
   text-align: center;
-  height: 87vh;
   .overlay {
     width: 100%;
-    height: 100%;
-    padding-top: 180px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .laptop-girl {
       width: 70px;
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {

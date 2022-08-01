@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Typical from 'react-typical'
 import imagen1 from '../../images/girl.png';
 import { gsap } from 'gsap';
-import Footer from '../../components/Footer/Footer';
 import './Hero.scss';
 
 const Hero = () => {
@@ -34,7 +33,7 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <Footer />
+            
         </div>
     );
 };
