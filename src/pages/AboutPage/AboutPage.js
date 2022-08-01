@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import about from '../../images/about2.jpg'
 import TitleComp from '../../components/Title/TitleComp';
 import Skills from '../../components/Skills/Skills';
-import Footer from '../../components/Footer/Footer';
 import { gsap } from 'gsap';
 import './AboutPage.scss'
 

@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import './Contact.scss';
 import TitleComp from '../../components/Title/TitleComp';
 import { gsap } from 'gsap';
-import Footer from '../../components/Footer/Footer';
 
 const Contact = () => {
     const styleParagraph1 = window.innerWidth < 1920 ? {width:150} : {width: 308}
