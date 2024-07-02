@@ -51,7 +51,7 @@ const PortfolioContent = () => {
         </div>
         <div className="container-text mobile:items-center md:items-start md:pl-[6rem] md:w-[600px] md:h-[600px] flex flex-col justify-center">
           <h4 className="about-text">GoHire</h4>
-          <p className="about-text text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-base">Marketplace de servicios profesionales.</p>
+          <p className="about-text text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-lg">Marketplace de servicios profesionales.</p>
           <h4 className="about-text tech font-[500]">Tecnologías</h4>
           <ul className="tech-list about-text">
             <BiLogoTypescript className="text-[25px] ml-[6px] text-sky-700" />
@@ -68,7 +68,7 @@ const PortfolioContent = () => {
         </div>
         <div className="container-text mobile:items-center md:items-start md:pl-[6rem] md:w-[600px] md:h-[600px] flex flex-col justify-center">
           <h4 className="about-text2">Gadget</h4>
-          <p className="about-text2 text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-base">Ecommerce de productos electronicos.</p>
+          <p className="about-text2 text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-lg">Ecommerce de productos electronicos.</p>
           <h4 className="about-text2 tech font-[500]">Tecnologías</h4>
           <ul className="tech-list about-text2">
             <BiLogoTypescript className="text-[25px] ml-[6px] text-sky-700" />
@@ -85,7 +85,7 @@ const PortfolioContent = () => {
         </div>
         <div className="container-text mobile:items-center md:items-start md:pl-[6rem] md:w-[600px] md:h-[600px] flex flex-col justify-center">
           <h4 className="about-text3">DocTrack</h4>
-          <p className="about-text2 text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-base">Plataforma de gestión de turnos médicos.</p>
+          <p className="about-text2 text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-lg">Plataforma de gestión de turnos médicos.</p>
           <h4 className="tech about-text3 font-[500]">Tecnologías</h4>
           <ul className="tech-list about-text3">
             <FaReact className="text-[25px] ml-[6px] text-sky-600" />
@@ -105,7 +105,7 @@ const PortfolioContent = () => {
         </div>
         <div className="container-text mobile:items-center md:items-start md:pl-[6rem] md:w-[600px] md:h-[600px] flex flex-col justify-center">
           <h4 className="about-text4">FlickPick</h4>
-          <p className="about-text2 text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-base">Plataforma de salas de cine interactivas.</p>
+          <p className="about-text2 text-[#8D8D92] mb-[10px] mobile:text-center md:text-start mobile:text-[14px] md:text-lg">Plataforma de salas de cine interactivas.</p>
           <h4 className="tech about-text4 font-[500]">Tecnologías</h4>
           <ul className="tech-list about-text4">
             <FaHtml5 className="text-[25px] ml-[6px] text-orange-500" />
