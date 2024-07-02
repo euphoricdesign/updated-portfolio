@@ -99,7 +99,7 @@ const PortfolioContent = () => {
       </div>
       
 
-      <div style={{"marginBottom":"200px"}} className="container-work">
+      <div style={{"marginBottom":"200px"}} className="container-work clase-prueba">
         <div className="container-img md:w-[600px] md:h-[600px]">
           <img src={image4} className="img-size fourth-image" alt="" />
         </div>
