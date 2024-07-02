@@ -1,14 +1,17 @@
 import React from "react";
 import html from '../../images/html-5.png'
 import css from '../../images/css-3.png'
-import js from '../../images/js.png'
+import js from '../../images/javascript.svg'
 import react from '../../images/react.svg'
 import sass from '../../images/sass.svg'
 import redux from '../../images/redux.svg'
 import git from '../../images/git.svg'
-import gsap from '../../images/gsap.svg'
-import chakra from '../../images/chakra.svg'
-import figma from '../../images/figma.png'
+import node from '../../images/node3.svg'
+import express from '../../images/express.svg'
+import postgre from '../../images/postgresql.svg'
+import mongodb from '../../images/mongodb.svg'
+import firebase from '../../images/firebase.svg'
+import tailwind from '../../images/tailwind.svg'
 import next from '../../images/next.png'
 import "./Skills.scss";
 
@@ -55,32 +58,44 @@ const Skills = () => {
             </li>
             <li>
                 <div className="item-container">
+                    <img src={node} alt="node"/>
+                    <p>Node</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
+                    <img src={express} alt="express"/>
+                    <p>Express</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
+                    <img src={firebase} alt="firebase"/>
+                    <p>Firebase</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
+                    <img src={mongodb} alt="mongodb"/>
+                    <p>Mongo DB</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
+                    <img src={postgre} alt="postgre"/>
+                    <p>PostgreSQL</p>
+                </div>
+            </li>
+            <li>
+                <div className="item-container">
                     <img src={git} alt="git"/>
                     <p>Git</p>
                 </div>
             </li>
             <li>
                 <div className="item-container">
-                    <img src={sass} alt="sass"/>
-                    <p>SASS</p>
-                </div>
-            </li>
-            <li>
-                <div className="item-container">
-                    <img src={chakra} alt="chakra"/>
-                    <p>Chakra UI</p>
-                </div>
-            </li>
-            <li>
-                <div className="item-container">
-                    <img src={gsap} alt="gsap"/>
-                    <p>GSAP</p>
-                </div>
-            </li>
-            <li>
-                <div className="item-container">
-                    <img src={figma} alt="figma"/>
-                    <p>Figma</p>
+                    <img src={tailwind} alt="tailwind"/>
+                    <p>Tailwind</p>
                 </div>
             </li>
         </ul>

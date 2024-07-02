@@ -30,10 +30,13 @@ const AboutPage = () => {
                     <div className="about-info">
                         <h4 className="about-text">Soy<span> Merlina</span></h4>
                         <p className="about-text-p">
-                            Desarrolladora y diseñadora web creativa, ocurrente y con muchas ganas de aprender y seguir creciendo profesionalmente.
+                            Desarrolladora frontend que encontró en JavaScript su lenguaje de expresión digital 🌟.
                         </p>
                         <p className="about-text-p">
-                            Actualmente me encuentro en busqueda de desafios para plasmar en proyectos interesantes, todos mis conocimientos y experiencia.
+                            Combino mi pasión por el código limpio con un ojo agudo para el diseño, creando interfaces web que son tanto funcionales como visualmente atractivas. Mi objetivo es desarrollar experiencias digitales que destaquen, fusionando habilidades técnicas con creatividad.
+                        </p>
+                        <p className="about-text-p">
+                            Busco constantemente nuevos desafíos que me permitan crecer profesionalmente y aportar valor a proyectos innovadores. Si buscas una desarrolladora comprometida con la calidad y la estética, charlemos! ☕
                         </p>
                     </div>
                 </div>

@@ -1,14 +1,16 @@
 @import "../../common/style.scss";
 
-.container {
-  margin-left: 6.5rem;
-  margin-right: 6.5rem;
+// .container {
+//   padding: 0 130px;
+//   // margin-left: 6.5rem;
+//   // margin-right: 6.5rem;
 
-  @media screen and (max-width: 768px) {
-    margin-left: 0.7rem;
-    margin-right: 0.7rem;
-  }
-}
+//   @media screen and (max-width: 768px) {
+//     padding: 0 10px;
+//     // margin-left: 0.7rem;
+//     // margin-right: 0.7rem;
+//   }
+// }
 
 // header
 
@@ -19,6 +21,11 @@
   left: 0;
   z-index: 100;
   background: #131313;
+  padding: 0 130px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
 }
 
 // navbar
