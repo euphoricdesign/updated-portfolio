@@ -58,7 +58,7 @@ const PortfolioContent = () => {
             <RiNextjsFill className="text-[25px] ml-[6px] text-gray-700" />
             <RiTailwindCssFill className="text-[25px] ml-[6px] text-sky-500" />
           </ul>
-          <p className="about-text w-[150px] h-[100px]"><a className="button-projects" href="https://redbull-janoz1x1.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text w-[150px] h-[100px]"><a className="button-projects" href="" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ const PortfolioContent = () => {
             <RiNextjsFill className="text-[25px] ml-[6px] text-gray-700" />
             <RiTailwindCssFill className="text-[25px] ml-[6px] text-sky-500" />
           </ul>
-          <p className="about-text2 w-[150px] h-[100px]"><a className="button-projects" href="https://challenge-weather.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text2 w-[150px] h-[100px]"><a className="button-projects" href="" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 
@@ -94,7 +94,7 @@ const PortfolioContent = () => {
             <FaNodeJs className="text-[25px] ml-[6px] text-green-700" />
             <SiPostgresql className="text-[25px] ml-[6px] text-sky-800" />
           </ul>
-          <p className="about-text3 w-[150px] h-[100px]"><a className="button-projects" href="https://congress-app.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text3 w-[150px] h-[100px]"><a className="button-projects" href="" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
       
@@ -115,7 +115,7 @@ const PortfolioContent = () => {
             <SiExpress className="text-[25px] ml-[6px] text-gray-700" />
             <DiMongodb className="text-[25px] ml-[6px] text-green-400" />
           </ul>
-          <p className="about-text4 w-[150px] h-[100px]"><a className="button-projects" href="https://congress-app.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text4 w-[150px] h-[100px]"><a className="button-projects" href="" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 {/* 
