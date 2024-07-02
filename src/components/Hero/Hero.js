@@ -24,7 +24,9 @@ const Hero = () => {
                                 loop={Infinity}
                                 wrapper='b'
                                 steps={[
-                                    'Desarrolladora Front-end',
+                                    'Desarrolladora Full-stack',
+                                    1500,
+                                    'Focalizada en Front-end',
                                     1500,
                                     'Diseñadora Web',
                                     1500
