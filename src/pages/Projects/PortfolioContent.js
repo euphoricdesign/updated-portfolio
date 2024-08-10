@@ -58,7 +58,7 @@ const PortfolioContent = () => {
             <RiNextjsFill className="text-[25px] ml-[6px] text-gray-700" />
             <RiTailwindCssFill className="text-[25px] ml-[6px] text-sky-500" />
           </ul>
-          <p className="about-text w-[150px] h-[100px]"><a className="button-projects" href="https://go-hire-flax.vercel.app" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text w-[150px] h-[100px]"><a className="button-projects" href="https://go-hire-app.vercel.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ const PortfolioContent = () => {
             <RiNextjsFill className="text-[25px] ml-[6px] text-gray-700" />
             <RiTailwindCssFill className="text-[25px] ml-[6px] text-sky-500" />
           </ul>
-          <p className="about-text2 w-[150px] h-[100px]"><a className="button-projects" href="https://euphodesign.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text2 w-[150px] h-[100px]"><a className="button-projects" href="https://gadget-app.vercel.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 
