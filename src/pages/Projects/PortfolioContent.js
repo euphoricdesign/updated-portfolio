@@ -94,7 +94,7 @@ const PortfolioContent = () => {
             <FaNodeJs className="text-[25px] ml-[6px] text-green-700" />
             <SiPostgresql className="text-[25px] ml-[6px] text-sky-800" />
           </ul>
-          <p className="about-text3 w-[150px] h-[100px]"><a className="button-projects" href="https://euphodesign.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text3 w-[150px] h-[100px]"><a className="button-projects" href="https://doc-track-app.vercel.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
       
