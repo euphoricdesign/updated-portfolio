@@ -115,7 +115,7 @@ const PortfolioContent = () => {
             <SiExpress className="text-[25px] ml-[6px] text-gray-700" />
             <DiMongodb className="text-[25px] ml-[6px] text-green-400" />
           </ul>
-          <p className="about-text4 w-[150px] h-[100px]"><a className="button-projects" href="https://euphodesign.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
+          <p className="about-text4 w-[150px] h-[100px]"><a className="button-projects" href="https://flickpickapp.netlify.app/" target='_blank' rel="noreferrer" title="View site here">View site here</a></p>
         </div>
       </div>
 {/* 
