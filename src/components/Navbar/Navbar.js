@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.scss';
 import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
-import pdffile from '../../cv-merlina-final.pdf'
+import pdffile from '../../Merlina-cv.pdf'
 
 const Navbar = () => {
     const ThemeSwitcher = useThemeSwitcher();
